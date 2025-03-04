@@ -1,5 +1,5 @@
-# fortunatemaps.herokuapp.com-scrape
-Results from web scrape of TagPro map host fortunatemaps.herokuapp.com. Map IDs 1 – 88850.
+# Scrape of HTMLs for each Map ID on fortunatemaps.herokuapp.com
+Results from HTML web scrape of TagPro map host fortunatemaps.herokuapp.com. Map IDs 1 – 88850.
 <br>
 https://fortunatemaps.herokuapp.com/map/1
 <br>
