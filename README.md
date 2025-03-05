@@ -20,7 +20,7 @@ Example line items
 {"info":{"gameMode":"normal","name":"lowkey anamox","author":"carb"},"portals":{"25,27":{},"41,19":{},"43,38":{"cooldown":0,"destination":{"y":18,"x":41}},"23,8":{"cooldown":0,"destination":{"y":28,"x":25}},"20,13":{"cooldown":0,"destination":{"y":28,"x":41}},"46,33":{"cooldown":0,"destination":{"y":18,"x":25}}},"fields":{"19,13":{"defaultState":"blue"},"54,21":{"defaultState":"off"},"10,25":{"defaultState":"off"},"47,33":{"defaultState":"red"},"34,34":{"defaultState":"off"},"12,25":{"defaultState":"off"},"20,14":{"defaultState":"blue"},"55,21":{"defaultState":"off"},"22,20":{"defaultState":"red"},"11,25":{"defaultState":"off"},"32,12":{"defaultState":"off"},"46,32":{"defaultState":"red"},"44,26":{"defaultState":"blue"},"56,21":{"defaultState":"off"}},"switches":{"43,26":{"toggle":[],"timer":0},"22,21":{"toggle":[],"timer":0},"23,20":{"toggle":[],"timer":0},"8,30":{"toggle":[],"timer":0},"51,22":{"toggle":[],"timer":0},"7,30":{"toggle":[],"timer":0},"59,16":{"toggle":[],"timer":0},"15,24":{"toggle":[],"timer":0},"44,25":{"toggle":[],"timer":0},"58,16":{"toggle":[],"timer":0}},"marsballs":[],"spawnPoints":{"blue":[{"y":30,"x":48,"radius":2,"weight":1},{"y":31,"x":49,"radius":2,"weight":1}],"red":[{"y":15,"x":17,"radius":2,"weight":1},{"y":16,"x":18,"radius":2,"weight":1}]}}
 ```
 
-Map IDs with non-existant pages on fortunatemaps.herokuapp.com (count = 249):
+Map IDs with non-existent pages on fortunatemaps.herokuapp.com (count = 249):
 ---
 ```
 2479
