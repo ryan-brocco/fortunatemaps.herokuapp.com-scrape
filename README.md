@@ -1,4 +1,6 @@
 # Scrape of HTMLs for each Map ID on fortunatemaps.herokuapp.com
+The purpose of this web scrape is to allow for more robust searching for maps than what is possible on fortunatemaps.herokumap.com.
+
 Output from HTML web scrape of TagPro map host fortunatemaps.herokuapp.com. Map IDs 1 – 88850.
 <br>
 https://fortunatemaps.herokuapp.com/map/1
