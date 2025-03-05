@@ -6,4 +6,3 @@ Contents<br>
 ---
 scrape results (map IDs 1-88850).txt<br>
 scrape results - JSONs only (map IDs 1-88850).ndjson<br>
-Dump of 
