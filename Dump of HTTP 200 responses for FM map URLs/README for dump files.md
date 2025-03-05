@@ -271,7 +271,7 @@ Cetera
 84331<br>
 84332<br>
 
-**Map IDs with non-existant pages on fortunatemaps.herokuapp.com (count = 249):**<br>
+**Map IDs with non-existent pages on fortunatemaps.herokuapp.com (count = 249):**<br>
 2479<br>
 2480<br>
 2481<br>
