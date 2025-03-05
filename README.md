@@ -523,46 +523,22 @@ Cetera
 74024<br>
 <br>
 Example:
+Response from requesting https://fortunatemaps.herokuapp.com/map/21055
 ```
-    <time>Sun Feb 16 13:54:39 CST 2025</time>
-    <url><![CDATA[http://fortunatemaps.herokuapp.com/map/3]]></url>
-    <host ip="3.219.96.23">fortunatemaps.herokuapp.com</host>
-    <port>80</port>
-    <protocol>http</protocol>
-    <method><![CDATA[GET]]></method>
-    <path><![CDATA[/map/3]]></path>
-    <extension>null</extension>
-    <request base64="false"><![CDATA[GET /map/3 HTTP/1.1
-Host: fortunatemaps.herokuapp.com
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Accept-Language: en-US;q=0.9,en;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.62 Safari/537.36
-Connection: close
-Cache-Control: max-age=0
-Upgrade-Insecure-Requests: 1
-Sec-CH-UA: ".Not/A)Brand";v="99", "Google Chrome";v="106", "Chromium";v="106"
-Sec-CH-UA-Platform: Windows
-Sec-CH-UA-Mobile: ?0
-
-]]></request>
-    <status>200</status>
-    <responselength>20746</responselength>
-    <mimetype>HTML</mimetype>
-    <response base64="false"><![CDATA[HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1739735677&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=vSqtgnuH91lTUu8Z3Cfz1kml6unFmJFoCk8zFlaE8g0%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1739735677&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=vSqtgnuH91lTUu8Z3Cfz1kml6unFmJFoCk8zFlaE8g0%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1739845519&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=bPXGX8Hd0tfs4EaHyEjg9BWDN%2FUVVqiDForr9zvdDwM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1739845519&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=bPXGX8Hd0tfs4EaHyEjg9BWDN%2FUVVqiDForr9zvdDwM%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: close
 X-Powered-By: Express
 Ratelimit-Limit: 200
-Ratelimit-Remaining: 198
-Ratelimit-Reset: 21
+Ratelimit-Remaining: 194
+Ratelimit-Reset: 6
 Content-Type: text/html; charset=utf-8
-Content-Length: 19939
-Etag: W/"4de3-nc3VYFiWQYOmWCGDsZ+KRk/ELuI"
-Date: Sun, 16 Feb 2025 19:54:38 GMT
+Content-Length: 29070
+Etag: W/"718e-SGoqqgr4F1nW1a6V4pn2JxBnDz4"
+Date: Tue, 18 Feb 2025 02:25:20 GMT
 Via: 1.1 vegur
 
 <!doctype html>
@@ -585,13 +561,13 @@ Via: 1.1 vegur
 <meta property="og:site_name" content="FortunateMaps" />
 
 
-<meta name="twitter:title" content="Command Center">
-<meta name="twitter:image" content="/preview/3.jpeg">
-<meta property="og:image" content="/preview/3.jpeg" />
-<meta name="description" content="by bad" />
-<meta name="twitter:card" content="by bad">
-<meta name="twitter:description" content="by bad">
-<meta property="og:description" content="by bad" />
+<meta name="twitter:title" content="Mars Climb">
+<meta name="twitter:image" content="/preview/21055.jpeg">
+<meta property="og:image" content="/preview/21055.jpeg" />
+<meta name="description" content="by Ball-E" />
+<meta name="twitter:card" content="by Ball-E">
+<meta name="twitter:description" content="by Ball-E">
+<meta property="og:description" content="by Ball-E" />
 
 
 <!-- Bootstrap CSS -->
@@ -609,7 +585,7 @@ Via: 1.1 vegur
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 		<link rel="stylesheet" type="text/css" href="/css/map.css">
 
-		<title>Command Center by bad</title>
+		<title>Mars Climb by Ball-E</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
@@ -669,26 +645,26 @@ Via: 1.1 vegur
 				<div class="col-md-8">
 					<div class="card">
 						<img
-							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAMAAAANxBKoAAAAB3RJTUUH3gUVEio5ZAvMHAAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAADAFBMVEUAAACAQHB4eHiAcEBAgFDU1NRAUIC5elf/gADcuroAdQBzc/8ZAJT//wA3NzebAADKwAAA/wCAgAC7uN25AAAAAJv/c3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9naQAAAAAWJLR0T/pQfyxQAAAYhJREFUeJyVlQ+TgiAQxRcwNTPG0rnv/y27uZM6lF1ll5DuTU3++c3jwS4EsEvpvAwIqeqUV23+AUu8AHO8CDen1nwML/zmrs+rCrzmNOHKf/yqXQp0wDFXbXJ03/cbvU2i24dK6D5Jfm3CryWa8EU05dZ/u+XCPcODb1F13aE5zylzK6Ttjx/FAcyRxWwU93TkzfptiFcm9sasrxeYC0AVmvYBi6kSzp6iJ8qYZ9Q1TrfuV8LgFMHh4vwgvHHPlMaXcUQr44paftKBG73C6Khkb0g6cm7lKKaJblTFYHuj6t3J7WZz8LI9uLWqWgaD7IVYNTpZgg9pkfmQtims0jMLtJkd9j3WdjahN3XC+l1hXtQ0K6wJfpdk3YW1DmXyh47FGG9pXNKhZj2foXk1x3GcpqkbcjS/D/TUIb3Nkrp52fAw0AWqk7lxdZur9F7NZZLkfKqIHt/QJDz8cLIjKkd/+ZWr9qEKtBSna7Y9MtqrWbenEh+VHpJD/Qgu4hwu4BL2+ME/fAz/AZDCPxT7uMZvAAAAAElFTkSuQmCC"
+							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAADTCAMAAABQkwh3AAAAMFBMVEUAAAC5AAAZAJSAgADKwAB4eHhAgFDU1NRAUID/gACAcECAQHAAdQD//wAgICA3NzemEqUwAAAO4UlEQVR4AQHWDinxAAAAAAABAgEDBAMCAQIAAAAAAAAAAAAFBQUFBQUFBQUAAAAAAAAAAAAABQUEBAQFBQAAAAAAAAAAAAAABQYHBwcIBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAFBQcHBwcHBQUAAAAAAAAAAAAFBAcHBwcHBAUAAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAUFBQcHBwcHBQUFAAAAAAAAAAUDDAcHCQcHDAMFAAAAAAAAAAUDDAcHBwcHDAMFAAAAAAAAAAUDDAcHBwcHDAMFAAAAAAAAAAUFBQoHBwcLBQUFAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAABQUHBwcFBQAAAAAAAAAAAAAABQQHBwcEBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAFBQUHCQcFBQUAAAAAAAAAAAAFBAcHBwcHBAUAAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFBQUMDAwFBQUAAAAAAAAAAAUFBQUHBwcFBQUFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUFBQUHBwcIBQUFAAAAAAAAAAAAAAUHBwcHCAUAAAAAAAAAAAAAAAUKBwcHBwUAAAAAAAAAAAAAAAUFCgcHBwUAAAAAAAAAAAAAAAUFBQcHBwUAAAAAAAAAAAAAAAUOBwcHBwUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUHBwcHCwUAAAAAAAAAAAAAAAUHBwcLBQUAAAAAAAAAAAAAAAUHBwcFBQUAAAAAAAAAAAAAAAUHBwcHDgUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUKBwcHBwUAAAAAAAAAAAAAAAUFCgcHBwUAAAAAAAAAAAAAAAUFBQcHBwUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUHBwcHCwUAAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAAAAAFBgcHBwsFAAAAAAAAAAAAAAUGBwcHCwUAAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAAAAAFBg0HBwsFAAAAAAAAAAAAAAUGBwcNCwUAAAAAAAAAAAAAAAUHBwcHBAUAAAAAAAAAAAAAAAUHBwcHBAUAAAAAAAAAAAAAAAUHBwcLBQUAAAAAAAAAAAAAAAUHBwsFAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAFBQUAAAAAAAAAAAUHBwUFBQUGBAgFAAAAAAAAAAUHBwUGBwcHBwcFAAAAAAAAAAUHBwUHBwcHBwsFAAAAAAAAAAUHBwUHBQUFBQUFBQUFBQUFAAUHBwcHBwcHBwcHBwcHBwQFAAUHBwcHBwcHBwcHBwcHBwQFAAUHBwUFDw8PDw8PDw8PDw8FAAUMDAUFBQUFBQUFBQUFBQUFAAUDAwUAAAUFBQUFAAAAAAAAAAUFBQUAAAUGBAgFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcIAAAAAAAAAAAAAAAAAAUHBwcLAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAYHBwcFAAAAAAAAAAAAAAAAAAoHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcIBQAAAAAAAAAAAAAAAAUKBwcHCAUFAAAAAAAAAAAAAAAFCgcHBwcFAAAAAAAAAAAAAAAABQoHBwcIBQAAAAAAAAAAAAAAAAUKBwcHCAUFAAAAAAAAAAAAAAAFCgcHBw8FAAAAAAAAAAAAAAAABQcHBw8FAAAAAAAAAAAAAAAFBgcHBw8FAAAAAAAAAAAAAAUGBwcHCwUFAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAABQUFBgcHBwsFAAAAAAAAAAAABQcHBwcHCwUAAAAAAAAAAAAABQcHBwcLBQAAAAAAAAAAAAAFBgcHBwsFAAAAAAAAAAAAAAUGBwcHCwUFAAAAAAAAAAAABQYHBwcLBQUFAAAAAAAAAAAFBQcHBwsFBQUFAAAAAAAAAAAFDAcHBwUEBAQFAAAAAAAAAAAFDAcHBwUHBwcFAAAAAAAAAAAFDAcHBwYHBwcFAAAAAAAAAAAFDAcHBwcHBwcFAAAAAAAAAAAFBwcHBwsFBQUFAAAAAAAAAAAFBwcHBwUFBQUFAAAAAAAAAAAFCgcHBwwHCAUFAAAAAAAAAAAABQoHBwwHBwgFAAAAAAAAAAAAAAUKBwwHBwcFAAAAAAAAAAAAAAAFBQUMDAwFAAAAAAAAAAAAAAAAAAUEBAQFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAUHBwcFBQUAAAAAAAAAAAAABQUHBwcHBwgFAAAAAAAAAAAFBgcHBwcHBwcIBQAAAAAAAAAFBwcHBwcHBwcHDwUAAAAAAAUGBwcHBwsFCgcHBwgFAAAABQYHBwcHCwYABQ8HBwcFAAAFBgcHBwcLBgAACAUKBwcFAAUFBwcHBwwFAAAACwUGBwcFAAUPBwcHCwUGAAAABQ8HBwcFAAUPBwcHBQAAAAALBgcHBwsFAAUPBwcHCAoABQUGBwcHDwUAAAUFBwcHBwgFBQ8HBwcLBQUAAAAFCgcHBwcHBwcHBwsFAAAAAAAABQoHBwcHBwcHDwUAAAAAAAAAAAUKBwcHBwcHCAUFAAAAAAAAAAUGBwcHBwcHBwgFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUKBwcHBwcHBwsFAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAAAAUDAwMFAAAAAAAAAAAABQUFBQUFBQUFBQUFBQAAAAAFBQQEBAUAAAAFBAQEBQUAAAUFBwcHBwUFBQUFBwcHBwUFAAUHBwcHBwcHBwcHBwcHBwcFAAUHBwcHBwcHBwcHBwcHBwcFAAUFBwcHBwcHBwcHBwcHBwUFAAAFBQcHBwcHBwcHBwcHBQUAAAAABQUFBQUFBQUFBQUFBQAAIakuDDtkxuIAAAAASUVORK5CYII="
 							data-lazyrendermode="pixelated"
-							data-src="/preview/3.jpeg"
+							data-src="/preview/21055.jpeg"
 							class="card-img-top"
-							alt="Command Center by bad"
+							alt="Mars Climb by Ball-E"
 						/>
 						<div class="card-body">
 							<div class="text-center">
 								<h5 class="card-title">
-									<b>Command Center</b> by <b>bad</b>
+									<b>Mars Climb</b> by <b>Ball-E</b>
 								</h5>
 								<!-- <p class="card-text">Look at this map.</p> -->
 							</div>
 							<hr>
 							<div class="btn-group w-100" role="group" aria-label="Map Controls">
-								<a type="button" class="btn btn-primary" href="/test/3">Test</a>
-								<a type="button" class="btn btn-primary" href="/preview/3">Fullsize Preview</a>
-								<a type="button" class="btn btn-primary" href="/png/3">.PNG</a>
-								<a type="button" class="btn btn-primary" href="/json/3">.JSON</a>
-								<a type="button" class="btn btn-primary" href="/editor?mapid=3">Remix this map</a>
+								<a type="button" class="btn btn-primary" href="/test/21055">Test</a>
+								<a type="button" class="btn btn-primary" href="/preview/21055">Fullsize Preview</a>
+								<a type="button" class="btn btn-primary" href="/png/21055">.PNG</a>
+								<a type="button" class="btn btn-primary" href="/json/21055">.JSON</a>
+								<a type="button" class="btn btn-primary" href="/editor?mapid=21055">Remix this map</a>
 							</div>
 						</div>
 					</div>
@@ -702,8 +678,8 @@ Via: 1.1 vegur
 								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownVersionsButton">
 									
-											<a class="dropdown-item" href="/map/3">
-												Command Center by bad (3)
+											<a class="dropdown-item" href="/map/21055">
+												Mars Climb by Ball-E (21055)
 											</a>
 										
 								</div>
@@ -714,14 +690,6 @@ Via: 1.1 vegur
 								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownRemixesButton">
 									
-											<a class="dropdown-item" href="/map/80401">
-												Command Center Naked by Homer Jay (80401)
-											</a>
-										
-											<a class="dropdown-item" href="/map/80400">
-												Command Center Naked by Homer Jay (80400)
-											</a>
-										
 								</div>
 							</div>
 							<hr>
@@ -732,7 +700,7 @@ Via: 1.1 vegur
 										<tr>
 											<td>Upload Date</td>
 											<td data-map-property="date">
-												12/8/2014, 10:39:14 AM
+												2/29/2016, 8:07:59 AM
 											</td>
 										</tr>
 										<tr>
@@ -754,7 +722,7 @@ Via: 1.1 vegur
 								</table>
 							</div>
 							<hr>
-							<pre class="map-description">-- Original U-M ID: 3 --
+							<pre class="map-description">-- Original U-M ID: 24428 --
 No description</pre>
 						</div>
 					</div>
@@ -790,8 +758,8 @@ No description</pre>
 					<div class="modal-body">
 						<b>Map Name and Author:</b>
 						<div class="input-group mt-2">
-							<input type="text" class="form-control" id="mapNameInput" value="Command Center" maxlength="150" placeholder="Map Name">
-							<input type="text" class="form-control" id="mapAuthorInput" value="bad" maxlength="150" placeholder="Map Author">
+							<input type="text" class="form-control" id="mapNameInput" value="Mars Climb" maxlength="150" placeholder="Map Name">
+							<input type="text" class="form-control" id="mapAuthorInput" value="Ball-E" maxlength="150" placeholder="Map Author">
 						</div>
 						<hr>
 
@@ -846,11 +814,11 @@ No description</pre>
 
 		<footer class="py-3 bg-primary text-light">
 			<div class="container">
-				<p class="text-center m-0">Developed by Electro ...</p>
+				<p class="text-center m-0">Developed by Electro ⚡</p>
 			</div>
 		</footer>
 
-		<script type="text/javascript">window.MAP_DATA = {"_id":"62219c39e8aa36d45ca6acc1","name":"Command Center","authorIDs":[],"authorName":"bad","description":"-- Original U-M ID: 3 --\nNo description","dateUploaded":"2014-12-08T10:39:14.506Z","comments":[],"likes":[],"tags":["UMDUMP"],"hiddenTags":[],"mapID":3,"json":"{\"info\":{\"name\":\"Command Center\",\"author\":\"bad\"},\"switches\":{\"31,21\":{\"toggle\":[{\"pos\":{\"y\":23,\"x\":31}}]},\"29,10\":{\"toggle\":[{\"pos\":{\"y\":11,\"x\":28}},{\"pos\":{\"y\":9,\"x\":28}}]},\"25,17\":{\"toggle\":[{\"pos\":{\"y\":16,\"x\":25}},{\"pos\":{\"y\":17,\"x\":24}}]},\"2,39\":{\"toggle\":[{\"pos\":{\"y\":40,\"x\":2}}]},\"42,5\":{\"toggle\":[{\"pos\":{\"y\":4,\"x\":42}}]},\"13,15\":{\"toggle\":[{\"pos\":{\"y\":15,\"x\":11}}]},\"40,4\":{\"toggle\":[{\"pos\":{\"y\":4,\"x\":42}}]},\"35,28\":{\"toggle\":[{\"pos\":{\"y\":29,\"x\":33}}]},\"13,23\":{\"toggle\":[{\"pos\":{\"y\":21,\"x\":13}}]},\"19,27\":{\"toggle\":[{\"pos\":{\"y\":28,\"x\":19}},{\"pos\":{\"y\":27,\"x\":20}}]},\"31,29\":{\"toggle\":[{\"pos\":{\"y\":29,\"x\":33}}]},\"4,40\":{\"toggle\":[{\"pos\":{\"y\":40,\"x\":2}}]},\"15,34\":{\"toggle\":[{\"pos\":{\"y\":33,\"x\":16}},{\"pos\":{\"y\":35,\"x\":16}}]},\"9,16\":{\"toggle\":[{\"pos\":{\"y\":15,\"x\":11}}]}},\"portals\":{\"7,13\":{\"cooldown\":0,\"destination\":{\"y\":30,\"x\":24}},\"37,31\":{\"cooldown\":0,\"destination\":{\"y\":14,\"x\":20}}},\"fields\":{\"8,13\":{\"defaultState\":\"blue\"},\"28,11\":{\"defaultState\":\"red\"},\"36,31\":{\"defaultState\":\"red\"},\"7,12\":{\"defaultState\":\"blue\"},\"20,37\":{\"defaultState\":\"blue\"},\"20,27\":{\"defaultState\":\"blue\"},\"22,37\":{\"defaultState\":\"blue\"},\"24,7\":{\"defaultState\":\"red\"},\"28,9\":{\"defaultState\":\"red\"},\"19,28\":{\"defaultState\":\"blue\"},\"22,7\":{\"defaultState\":\"red\"},\"37,32\":{\"defaultState\":\"red\"},\"25,16\":{\"defaultState\":\"red\"},\"16,33\":{\"defaultState\":\"blue\"},\"21,37\":{\"defaultState\":\"blue\"},\"23,7\":{\"defaultState\":\"red\"},\"16,35\":{\"defaultState\":\"blue\"},\"24,17\":{\"defaultState\":\"red\"}}}","png":"iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAMAAAANxBKoAAAAB3RJTUUH3gUVEio5ZAvMHAAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAADAFBMVEUAAACAQHB4eHiAcEBAgFDU1NRAUIC5elf/gADcuroAdQBzc/8ZAJT//wA3NzebAADKwAAA/wCAgAC7uN25AAAAAJv/c3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9naQAAAAAWJLR0T/pQfyxQAAAYhJREFUeJyVlQ+TgiAQxRcwNTPG0rnv/y27uZM6lF1ll5DuTU3++c3jwS4EsEvpvAwIqeqUV23+AUu8AHO8CDen1nwML/zmrs+rCrzmNOHKf/yqXQp0wDFXbXJ03/cbvU2i24dK6D5Jfm3CryWa8EU05dZ/u+XCPcODb1F13aE5zylzK6Ttjx/FAcyRxWwU93TkzfptiFcm9sasrxeYC0AVmvYBi6kSzp6iJ8qYZ9Q1TrfuV8LgFMHh4vwgvHHPlMaXcUQr44paftKBG73C6Khkb0g6cm7lKKaJblTFYHuj6t3J7WZz8LI9uLWqWgaD7IVYNTpZgg9pkfmQtims0jMLtJkd9j3WdjahN3XC+l1hXtQ0K6wJfpdk3YW1DmXyh47FGG9pXNKhZj2foXk1x3GcpqkbcjS/D/TUIb3Nkrp52fAw0AWqk7lxdZur9F7NZZLkfKqIHt/QJDz8cLIjKkd/+ZWr9qEKtBSna7Y9MtqrWbenEh+VHpJD/Qgu4hwu4BL2+ME/fAz/AZDCPxT7uMZvAAAAAElFTkSuQmCC","versionSource":3,"isRemix":false,"unlisted":false,"__v":0}</script>
+		<script type="text/javascript">window.MAP_DATA = {"_id":"62219c3ce8aa36d45ca6feeb","name":"Mars Climb","authorIDs":[],"authorName":"Ball-E","description":"-- Original U-M ID: 24428 --\nNo description","dateUploaded":"2016-02-29T08:07:59.125Z","comments":[],"likes":[],"tags":["UMDUMP"],"hiddenTags":[],"mapID":21055,"json":"{\"info\":{\"gameMode\":\"gravityCTF\",\"name\":\"Mars Climb\",\"author\":\"Ball-E\"},\"portals\":{\"4,73\":{\"cooldown\":0,\"destination\":{\"y\":68,\"x\":11}},\"4,74\":{\"cooldown\":0,\"destination\":{\"y\":69,\"x\":11}},\"7,161\":{\"cooldown\":0,\"destination\":{\"y\":151,\"x\":7}},\"3,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":12}},\"7,151\":{},\"11,64\":{\"cooldown\":0,\"destination\":{\"y\":59,\"x\":5}},\"15,116\":{\"cooldown\":0,\"destination\":{\"y\":98,\"x\":5}},\"11,54\":{\"cooldown\":0,\"destination\":{\"y\":47,\"x\":11}},\"5,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":12}},\"9,2\":{\"cooldown\":0,\"destination\":{\"y\":0,\"x\":8}},\"11,33\":{},\"7,2\":{\"cooldown\":0,\"destination\":{\"y\":0,\"x\":8}},\"11,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":4}},\"5,53\":{\"cooldown\":0,\"destination\":{\"y\":47,\"x\":5}},\"5,54\":{\"cooldown\":0,\"destination\":{\"y\":47,\"x\":5}},\"12,197\":{},\"8,161\":{\"cooldown\":0,\"destination\":{\"y\":151,\"x\":8}},\"5,58\":{\"cooldown\":0,\"destination\":{\"y\":53,\"x\":11}},\"5,59\":{\"cooldown\":0,\"destination\":{\"y\":54,\"x\":11}},\"9,161\":{\"cooldown\":0,\"destination\":{\"y\":151,\"x\":9}},\"8,121\":{\"cooldown\":0,\"destination\":{\"y\":112,\"x\":8}},\"8,2\":{\"cooldown\":0,\"destination\":{\"y\":0,\"x\":8}},\"8,0\":{},\"11,69\":{\"cooldown\":0,\"destination\":{\"y\":64,\"x\":5}},\"11,68\":{\"cooldown\":0,\"destination\":{\"y\":63,\"x\":5}},\"10,42\":{\"cooldown\":0,\"destination\":{\"y\":33,\"x\":11}},\"15,117\":{\"cooldown\":0,\"destination\":{\"y\":99,\"x\":5}},\"5,33\":{},\"11,47\":{},\"11,63\":{\"cooldown\":0,\"destination\":{\"y\":58,\"x\":5}},\"4,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":12}},\"5,98\":{},\"5,99\":{},\"13,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":4}},\"8,112\":{},\"11,58\":{\"cooldown\":0,\"destination\":{\"y\":53,\"x\":5}},\"6,42\":{\"cooldown\":0,\"destination\":{\"y\":33,\"x\":5}},\"11,59\":{\"cooldown\":0,\"destination\":{\"y\":54,\"x\":5}},\"5,69\":{\"cooldown\":0,\"destination\":{\"y\":64,\"x\":11}},\"5,68\":{\"cooldown\":0,\"destination\":{\"y\":63,\"x\":11}},\"8,151\":{},\"5,47\":{},\"12,204\":{\"cooldown\":0,\"destination\":{\"y\":197,\"x\":4}},\"11,53\":{\"cooldown\":0,\"destination\":{\"y\":47,\"x\":11}},\"12,73\":{\"cooldown\":0,\"destination\":{\"y\":68,\"x\":5}},\"5,63\":{\"cooldown\":0,\"destination\":{\"y\":58,\"x\":11}},\"12,74\":{\"cooldown\":0,\"destination\":{\"y\":69,\"x\":5}},\"4,197\":{},\"5,64\":{\"cooldown\":0,\"destination\":{\"y\":59,\"x\":11}},\"9,151\":{}},\"fields\":{\"6,188\":{\"defaultState\":\"on\"},\"9,40\":{\"defaultState\":\"on\"},\"9,61\":{\"defaultState\":\"on\"},\"8,61\":{\"defaultState\":\"on\"},\"8,40\":{\"defaultState\":\"on\"},\"9,66\":{\"defaultState\":\"on\"},\"8,66\":{\"defaultState\":\"on\"},\"8,201\":{\"defaultState\":\"on\"},\"7,71\":{\"defaultState\":\"on\"},\"8,51\":{\"defaultState\":\"on\"},\"8,160\":{\"defaultState\":\"on\"},\"7,56\":{\"defaultState\":\"on\"},\"11,36\":{\"defaultState\":\"on\"},\"9,160\":{\"defaultState\":\"on\"},\"7,51\":{\"defaultState\":\"on\"},\"5,38\":{\"defaultState\":\"on\"},\"1,119\":{\"defaultState\":\"on\"},\"8,71\":{\"defaultState\":\"on\"},\"2,154\":{\"defaultState\":\"on\"},\"2,119\":{\"defaultState\":\"on\"},\"2,151\":{\"defaultState\":\"on\"},\"5,37\":{\"defaultState\":\"on\"},\"2,153\":{\"defaultState\":\"on\"},\"2,152\":{\"defaultState\":\"on\"},\"6,159\":{\"defaultState\":\"on\"},\"6,158\":{\"defaultState\":\"on\"},\"9,56\":{\"defaultState\":\"on\"},\"9,71\":{\"defaultState\":\"on\"},\"7,201\":{\"defaultState\":\"on\"},\"8,56\":{\"defaultState\":\"on\"},\"6,157\":{\"defaultState\":\"on\"},\"11,37\":{\"defaultState\":\"on\"},\"7,160\":{\"defaultState\":\"on\"},\"7,61\":{\"defaultState\":\"on\"},\"5,36\":{\"defaultState\":\"on\"},\"7,66\":{\"defaultState\":\"on\"},\"7,40\":{\"defaultState\":\"on\"},\"11,38\":{\"defaultState\":\"on\"},\"9,201\":{\"defaultState\":\"on\"},\"9,51\":{\"defaultState\":\"on\"}},\"switches\":{},\"marsballs\":[{\"y\":4,\"x\":8},{\"y\":122,\"x\":8}],\"spawnPoints\":{\"blue\":[{\"y\":209,\"x\":10,\"radius\":5,\"weight\":1}],\"red\":[{\"y\":209,\"x\":6,\"radius\":5,\"weight\":1}]}}","png":"iVBORw0KGgoAAAANSUhEUgAAABEAAADTCAMAAABQkwh3AAAAMFBMVEUAAAC5AAAZAJSAgADKwAB4eHhAgFDU1NRAUID/gACAcECAQHAAdQD//wAgICA3NzemEqUwAAAO4UlEQVR4AQHWDinxAAAAAAABAgEDBAMCAQIAAAAAAAAAAAAFBQUFBQUFBQUAAAAAAAAAAAAABQUEBAQFBQAAAAAAAAAAAAAABQYHBwcIBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQkHBwcJBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAFBQcHBwcHBQUAAAAAAAAAAAAFBAcHBwcHBAUAAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAUFBQcHBwcHBQUFAAAAAAAAAAUDDAcHCQcHDAMFAAAAAAAAAAUDDAcHBwcHDAMFAAAAAAAAAAUDDAcHBwcHDAMFAAAAAAAAAAUFBQoHBwcLBQUFAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAABQUHBwcFBQAAAAAAAAAAAAAABQQHBwcEBQAAAAAAAAAAAAAABQcHBwcHBQAAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAFBQUHCQcFBQUAAAAAAAAAAAAFBAcHBwcHBAUAAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFAAUMDAwFAAUAAAAAAAAAAAAFBQYNDQ0IBQUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBA0NDQ0NBAUAAAAAAAAAAAAFBQoNDQ0LBQUAAAAAAAAAAAAFBQUMDAwFBQUAAAAAAAAAAAUFBQUHBwcFBQUFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUFBQUHBwcIBQUFAAAAAAAAAAAAAAUHBwcHCAUAAAAAAAAAAAAAAAUKBwcHBwUAAAAAAAAAAAAAAAUFCgcHBwUAAAAAAAAAAAAAAAUFBQcHBwUAAAAAAAAAAAAAAAUOBwcHBwUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUHBwcHCwUAAAAAAAAAAAAAAAUHBwcLBQUAAAAAAAAAAAAAAAUHBwcFBQUAAAAAAAAAAAAAAAUHBwcHDgUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUKBwcHBwUAAAAAAAAAAAAAAAUFCgcHBwUAAAAAAAAAAAAAAAUFBQcHBwUAAAAAAAAAAAAAAAUHBwcHBwUAAAAAAAAAAAAAAAUHBwcHCwUAAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAAAAAFBgcHBwsFAAAAAAAAAAAAAAUGBwcHCwUAAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAAAAAFBg0HBwsFAAAAAAAAAAAAAAUGBwcNCwUAAAAAAAAAAAAAAAUHBwcHBAUAAAAAAAAAAAAAAAUHBwcHBAUAAAAAAAAAAAAAAAUHBwcLBQUAAAAAAAAAAAAAAAUHBwsFAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAAAAAAAAAAAAAAAAUHBwUAAAAFBQUAAAAAAAAAAAUHBwUFBQUGBAgFAAAAAAAAAAUHBwUGBwcHBwcFAAAAAAAAAAUHBwUHBwcHBwsFAAAAAAAAAAUHBwUHBQUFBQUFBQUFBQUFAAUHBwcHBwcHBwcHBwcHBwQFAAUHBwcHBwcHBwcHBwcHBwQFAAUHBwUFDw8PDw8PDw8PDw8FAAUMDAUFBQUFBQUFBQUFBQUFAAUDAwUAAAUFBQUFAAAAAAAAAAUFBQUAAAUGBAgFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcIAAAAAAAAAAAAAAAAAAUHBwcLAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAYHBwcFAAAAAAAAAAAAAAAAAAoHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAUHBwcIBQAAAAAAAAAAAAAAAAUKBwcHCAUFAAAAAAAAAAAAAAAFCgcHBwcFAAAAAAAAAAAAAAAABQoHBwcIBQAAAAAAAAAAAAAAAAUKBwcHCAUFAAAAAAAAAAAAAAAFCgcHBw8FAAAAAAAAAAAAAAAABQcHBw8FAAAAAAAAAAAAAAAFBgcHBw8FAAAAAAAAAAAAAAUGBwcHCwUFAAAAAAAAAAAABQYHBwcLBQAAAAAAAAAABQUFBgcHBwsFAAAAAAAAAAAABQcHBwcHCwUAAAAAAAAAAAAABQcHBwcLBQAAAAAAAAAAAAAFBgcHBwsFAAAAAAAAAAAAAAUGBwcHCwUFAAAAAAAAAAAABQYHBwcLBQUFAAAAAAAAAAAFBQcHBwsFBQUFAAAAAAAAAAAFDAcHBwUEBAQFAAAAAAAAAAAFDAcHBwUHBwcFAAAAAAAAAAAFDAcHBwYHBwcFAAAAAAAAAAAFDAcHBwcHBwcFAAAAAAAAAAAFBwcHBwsFBQUFAAAAAAAAAAAFBwcHBwUFBQUFAAAAAAAAAAAFCgcHBwwHCAUFAAAAAAAAAAAABQoHBwwHBwgFAAAAAAAAAAAAAAUKBwwHBwcFAAAAAAAAAAAAAAAFBQUMDAwFAAAAAAAAAAAAAAAAAAUEBAQFAAAAAAAAAAAAAAAAAAUHBwcFAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAYHBwcIAAAAAAAAAAAAAAAAAAoHBwcLAAAAAAAAAAAAAAAAAAUHBwcFBQUAAAAAAAAAAAAABQUHBwcHBwgFAAAAAAAAAAAFBgcHBwcHBwcIBQAAAAAAAAAFBwcHBwcHBwcHDwUAAAAAAAUGBwcHBwsFCgcHBwgFAAAABQYHBwcHCwYABQ8HBwcFAAAFBgcHBwcLBgAACAUKBwcFAAUFBwcHBwwFAAAACwUGBwcFAAUPBwcHCwUGAAAABQ8HBwcFAAUPBwcHBQAAAAALBgcHBwsFAAUPBwcHCAoABQUGBwcHDwUAAAUFBwcHBwgFBQ8HBwcLBQUAAAAFCgcHBwcHBwcHBwsFAAAAAAAABQoHBwcHBwcHDwUAAAAAAAAAAAUKBwcHBwcHCAUFAAAAAAAAAAUGBwcHBwcHBwgFAAAAAAAAAAUEBwcHBwcHBwQFAAAAAAAAAAUKBwcHBwcHBwsFAAAAAAAAAAAFCgcHBwcHCwUAAAAAAAAAAAAABQoHBwcLBQAAAAAAAAAAAAAAAAUMDAwFAAAAAAAAAAAAAAAAAAUDAwMFAAAAAAAAAAAABQUFBQUFBQUFBQUFBQAAAAAFBQQEBAUAAAAFBAQEBQUAAAUFBwcHBwUFBQUFBwcHBwUFAAUHBwcHBwcHBwcHBwcHBwcFAAUHBwcHBwcHBwcHBwcHBwcFAAUFBwcHBwcHBwcHBwcHBwUFAAAFBQcHBwcHBwcHBwcHBQUAAAAABQUFBQUFBQUFBQUFBQAAIakuDDtkxuIAAAAASUVORK5CYII=","versionSource":21055,"isRemix":false,"unlisted":false,"__v":0}</script>
 
 		<!-- Optional JavaScript -->
 <script type="text/javascript" src="/vendor/jquery.min.js"></script>
