@@ -1,5 +1,5 @@
 # Dump of HTTP 200 responses for FM map URLs
-The files contained in this directory is the raw output from HTML web scrape (one GET HTTP request per http://fortunatemaps.herokuapp.com/map/<#####>) of TagPro map host fortunatemaps.herokuapp.com. At the time of the this web scrape, the latest listed map ID was 88850. Scroll to the bottom for an example item (1 of the 88850 responses) contained within the txt file.
+The files contained in this directory is the raw output from HTML web scrape (one GET HTTP request per http://fortunatemaps.herokuapp.com/map/<#####>) of TagPro map host fortunatemaps.herokuapp.com. By the time this web scrape ended (2025-03-03 12 PM), the latest listed map ID was 88850. Scroll to the bottom for an example item (1 of the 88850 responses) contained within the txt file.
 <br>
 https://fortunatemaps.herokuapp.com/map/1
 <br>
