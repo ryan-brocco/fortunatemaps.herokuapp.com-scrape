@@ -21,7 +21,7 @@ Example line items
 ```
 <br>
 
-Map IDs with non-existent pages on fortunatemaps.herokuapp.com (count = 249):
+Map IDs w/o corresponding pages on fortunatemaps.herokuapp.com (count = 249):
 ---
 ```
 2479
