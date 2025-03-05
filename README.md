@@ -1,7 +1,7 @@
 # Scrape of HTMLs for each Map ID on fortunatemaps.herokuapp.com
 The purpose of this web scrape is to allow for more robust searching for maps than what is possible through the search function on fortunatemaps.herokumap.com or through a websearch for site:fortunatemaps.herokuapp.com.
-
-Output from HTML web scrape of TagPro map host fortunatemaps.herokuapp.com. Map IDs 1 – 88850.
+<br>
+Output from HTML web scrape of TagPro map host fortunatemaps.herokuapp.com. Map IDs 1 – 88850. Scroll to the bottom for an example item (1 of the 88850 responses) contained within the txt file.
 <br>
 https://fortunatemaps.herokuapp.com/map/1
 <br>
@@ -521,3 +521,350 @@ Cetera
 73981<br>
 73982<br>
 74024<br>
+<br>
+Example:
+```
+    <time>Sun Feb 16 13:54:39 CST 2025</time>
+    <url><![CDATA[http://fortunatemaps.herokuapp.com/map/3]]></url>
+    <host ip="3.219.96.23">fortunatemaps.herokuapp.com</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/map/3]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /map/3 HTTP/1.1
+Host: fortunatemaps.herokuapp.com
+Accept-Encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.62 Safari/537.36
+Connection: close
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Sec-CH-UA: ".Not/A)Brand";v="99", "Google Chrome";v="106", "Chromium";v="106"
+Sec-CH-UA-Platform: Windows
+Sec-CH-UA-Mobile: ?0
+
+]]></request>
+    <status>200</status>
+    <responselength>20746</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1739735677&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=vSqtgnuH91lTUu8Z3Cfz1kml6unFmJFoCk8zFlaE8g0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1739735677&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=vSqtgnuH91lTUu8Z3Cfz1kml6unFmJFoCk8zFlaE8g0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: close
+X-Powered-By: Express
+Ratelimit-Limit: 200
+Ratelimit-Remaining: 198
+Ratelimit-Reset: 21
+Content-Type: text/html; charset=utf-8
+Content-Length: 19939
+Etag: W/"4de3-nc3VYFiWQYOmWCGDsZ+KRk/ELuI"
+Date: Sun, 16 Feb 2025 19:54:38 GMT
+Via: 1.1 vegur
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" 
+	type="image/png" 
+	href="/assets/favicon.png">
+
+<!-- Twitter Card data -->
+
+<!-- Open Graph data -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fortunatemaps.herokuapp.com" />
+<meta property="og:site_name" content="FortunateMaps" />
+
+
+<meta name="twitter:title" content="Command Center">
+<meta name="twitter:image" content="/preview/3.jpeg">
+<meta property="og:image" content="/preview/3.jpeg" />
+<meta name="description" content="by bad" />
+<meta name="twitter:card" content="by bad">
+<meta name="twitter:description" content="by bad">
+<meta property="og:description" content="by bad" />
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="/vendor/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/vendor/flatly.min.css">
+<link rel="stylesheet" type="text/css" href="/css/global.css">
+<link rel="stylesheet" type="text/css" href="/css/badges.css">
+<script src="https://kit.fontawesome.com/9668e52905.js" crossorigin="anonymous"></script>
+<!-- <script>
+	if(location.hostname === 'fortunatemaps.herokuapp.com') {
+		location.hostname = 'fortunatemaps.subaverage.site';
+	}
+</script> -->
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/map.css">
+
+		<title>Command Center by bad</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+	<a class="navbar-brand" href="/">
+		<img src="/assets/logo.png" width="32" height="32" alt="" loading="lazy">
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link in-site" href="/">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link in-site" href="/editor">Editor</a>
+			</li>
+			<li class="nav-item" style='display:none'>
+				<a class="nav-link in-site" href="/profile/">Profile</a>
+			</li>
+			<!-- <li class="nav-item">
+				<a class="nav-link" href="https://tagpro.koalabeast.com/maps" target="_blank">Rotation</a>
+			</li> -->
+			<li class="nav-item ml-auto">
+				<a class="nav-link" href="https://discord.gg/JBy3BtN" target="_blank">Mapmaking Discord</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://github.com/raikutro/fortunatemaps" target="_blank">GitHub</a>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0" action="javascript:void(0)" id="searchForm">
+			<div class="input-group">
+				<input class="form-control" type="text" id="searchText" placeholder="Search" aria-label="Search">
+				<div class="input-group-append">
+					<button class="btn btn-secondary" type="submit">Search</button>
+				</div>
+			</div>
+		</form>
+		<div class="account-buttons">
+			<a class="sign-in-link" href="/sign_in">
+						<div class="sign-in-button">
+							<img src="/assets/logos/ctfauth.png"/> <span>Sign in with CTFAuth</span>
+						</div>
+					</a>
+		</div>
+	</div>
+</nav>
+
+<script>
+	const navLink = document.querySelector(`.nav-link.in-site[href*="${location.pathname.split("/")[1] || "/"}"]`);
+	if(navLink) navLink.parentElement.classList.add("active");
+</script>
+
+		<main role="main" class="container">
+			<div class="row mb-2">
+				<div class="col-md-8">
+					<div class="card">
+						<img
+							src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAMAAAANxBKoAAAAB3RJTUUH3gUVEio5ZAvMHAAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAADAFBMVEUAAACAQHB4eHiAcEBAgFDU1NRAUIC5elf/gADcuroAdQBzc/8ZAJT//wA3NzebAADKwAAA/wCAgAC7uN25AAAAAJv/c3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9naQAAAAAWJLR0T/pQfyxQAAAYhJREFUeJyVlQ+TgiAQxRcwNTPG0rnv/y27uZM6lF1ll5DuTU3++c3jwS4EsEvpvAwIqeqUV23+AUu8AHO8CDen1nwML/zmrs+rCrzmNOHKf/yqXQp0wDFXbXJ03/cbvU2i24dK6D5Jfm3CryWa8EU05dZ/u+XCPcODb1F13aE5zylzK6Ttjx/FAcyRxWwU93TkzfptiFcm9sasrxeYC0AVmvYBi6kSzp6iJ8qYZ9Q1TrfuV8LgFMHh4vwgvHHPlMaXcUQr44paftKBG73C6Khkb0g6cm7lKKaJblTFYHuj6t3J7WZz8LI9uLWqWgaD7IVYNTpZgg9pkfmQtims0jMLtJkd9j3WdjahN3XC+l1hXtQ0K6wJfpdk3YW1DmXyh47FGG9pXNKhZj2foXk1x3GcpqkbcjS/D/TUIb3Nkrp52fAw0AWqk7lxdZur9F7NZZLkfKqIHt/QJDz8cLIjKkd/+ZWr9qEKtBSna7Y9MtqrWbenEh+VHpJD/Qgu4hwu4BL2+ME/fAz/AZDCPxT7uMZvAAAAAElFTkSuQmCC"
+							data-lazyrendermode="pixelated"
+							data-src="/preview/3.jpeg"
+							class="card-img-top"
+							alt="Command Center by bad"
+						/>
+						<div class="card-body">
+							<div class="text-center">
+								<h5 class="card-title">
+									<b>Command Center</b> by <b>bad</b>
+								</h5>
+								<!-- <p class="card-text">Look at this map.</p> -->
+							</div>
+							<hr>
+							<div class="btn-group w-100" role="group" aria-label="Map Controls">
+								<a type="button" class="btn btn-primary" href="/test/3">Test</a>
+								<a type="button" class="btn btn-primary" href="/preview/3">Fullsize Preview</a>
+								<a type="button" class="btn btn-primary" href="/png/3">.PNG</a>
+								<a type="button" class="btn btn-primary" href="/json/3">.JSON</a>
+								<a type="button" class="btn btn-primary" href="/editor?mapid=3">Remix this map</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card stats-card">
+						<div class="card-body">
+							<div class="dropdown w-100">
+								<button class="btn btn-primary w-100 dropdown-toggle" type="button" id="dropdownVersionsButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Versions
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownVersionsButton">
+									
+											<a class="dropdown-item" href="/map/3">
+												Command Center by bad (3)
+											</a>
+										
+								</div>
+							</div>
+							<div class="dropdown w-100 mt-2">
+								<button class="btn btn-primary w-100 dropdown-toggle" type="button" id="dropdownRemixesButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Remixes
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownRemixesButton">
+									
+											<a class="dropdown-item" href="/map/80401">
+												Command Center Naked by Homer Jay (80401)
+											</a>
+										
+											<a class="dropdown-item" href="/map/80400">
+												Command Center Naked by Homer Jay (80400)
+											</a>
+										
+								</div>
+							</div>
+							<hr>
+							
+							<div class="map-data">
+								<table class="data-table">
+									<tbody>
+										<tr>
+											<td>Upload Date</td>
+											<td data-map-property="date">
+												12/8/2014, 10:39:14 AM
+											</td>
+										</tr>
+										<tr>
+											<td>Authors</td>
+											<td>
+												Anonymous
+											</td>
+										</tr>
+										<tr>
+											<td>Tags</td>
+											<td>
+												<span
+															class="tag badge badge-primary"
+															style="background: #003F00; color: #eee"
+														>U-M Transfer</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<hr>
+							<pre class="map-description">-- Original U-M ID: 3 --
+No description</pre>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="comment-editor-container mb-2">
+				<div class="markdown-container">
+					<textarea id="commentInput"></textarea>
+				</div>
+				<button class="btn btn-primary w-100" id="submitCommentBtn">Submit</button>
+				<hr>
+			</div>
+			<div class="card mb-2">
+				<div class="card-header">
+					Comments
+				</div>
+				<div class="card-body" id="commentsContainer">
+					
+				</div>
+			</div>
+		</main>
+
+		<div class="modal fade" id="mapSettingsModal" tabindex="-1" aria-labelledby="mapSettingsModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="mapSettingsModalLabel">Map Settings</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<b>Map Name and Author:</b>
+						<div class="input-group mt-2">
+							<input type="text" class="form-control" id="mapNameInput" value="Command Center" maxlength="150" placeholder="Map Name">
+							<input type="text" class="form-control" id="mapAuthorInput" value="bad" maxlength="150" placeholder="Map Author">
+						</div>
+						<hr>
+
+						<b class="tag-container">Authors: <span id="authorsDisplay"></span></b>
+						<div class="input-group mt-2" id="authorsGroup">
+							<input type="text" class="form-control" id="authorsInput" placeholder="Author ID or Username" maxlength="24" autocomplete="no">
+							<div class="input-group-append">
+								<button type="button" class="btn btn-secondary" id="addAuthorBtn">Add</button>
+							</div>
+						</div>
+						<ul id="authorSearchList"></ul>
+
+						<p></p>
+
+						<b class="tag-container">Tags: <span id="tagsDisplay">
+							
+						</span></b>
+						<div class="input-group mt-2" id="tagsGroup">
+							<input type="text" class="form-control" id="tagsInput" placeholder="Tag Name" maxlength="16">
+							<div class="input-group-append">
+								<button type="button" class="btn btn-secondary" id="addTagBtn">Add</button>
+								<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+									<span class="sr-only">Toggle Dropdown</span>
+								</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="javascript:void(0)" data-type="CTF">CTF</a><a class="dropdown-item" href="javascript:void(0)" data-type="NF">NF</a><a class="dropdown-item" href="javascript:void(0)" data-type="DTF">DTF</a><a class="dropdown-item" href="javascript:void(0)" data-type="2NF">2NF</a><a class="dropdown-item" href="javascript:void(0)" data-type="MARS BALL">Mars Ball</a><a class="dropdown-item" href="javascript:void(0)" data-type="MINIGAME">Minigame</a>
+								</div>
+							</div>
+						</div>
+						<hr/>
+						<b>Description:</b>
+						<textarea class="form-control" id="descriptionText"></textarea>
+						<hr>
+						<div class="input-group w-100">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Unlisted</span>
+							</div>
+							<div class="input-group-append">
+								<div class="input-group-text">
+									<input type="checkbox" id="unlistedCheck" >
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="saveMapSettings">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="py-3 bg-primary text-light">
+			<div class="container">
+				<p class="text-center m-0">Developed by Electro ...</p>
+			</div>
+		</footer>
+
+		<script type="text/javascript">window.MAP_DATA = {"_id":"62219c39e8aa36d45ca6acc1","name":"Command Center","authorIDs":[],"authorName":"bad","description":"-- Original U-M ID: 3 --\nNo description","dateUploaded":"2014-12-08T10:39:14.506Z","comments":[],"likes":[],"tags":["UMDUMP"],"hiddenTags":[],"mapID":3,"json":"{\"info\":{\"name\":\"Command Center\",\"author\":\"bad\"},\"switches\":{\"31,21\":{\"toggle\":[{\"pos\":{\"y\":23,\"x\":31}}]},\"29,10\":{\"toggle\":[{\"pos\":{\"y\":11,\"x\":28}},{\"pos\":{\"y\":9,\"x\":28}}]},\"25,17\":{\"toggle\":[{\"pos\":{\"y\":16,\"x\":25}},{\"pos\":{\"y\":17,\"x\":24}}]},\"2,39\":{\"toggle\":[{\"pos\":{\"y\":40,\"x\":2}}]},\"42,5\":{\"toggle\":[{\"pos\":{\"y\":4,\"x\":42}}]},\"13,15\":{\"toggle\":[{\"pos\":{\"y\":15,\"x\":11}}]},\"40,4\":{\"toggle\":[{\"pos\":{\"y\":4,\"x\":42}}]},\"35,28\":{\"toggle\":[{\"pos\":{\"y\":29,\"x\":33}}]},\"13,23\":{\"toggle\":[{\"pos\":{\"y\":21,\"x\":13}}]},\"19,27\":{\"toggle\":[{\"pos\":{\"y\":28,\"x\":19}},{\"pos\":{\"y\":27,\"x\":20}}]},\"31,29\":{\"toggle\":[{\"pos\":{\"y\":29,\"x\":33}}]},\"4,40\":{\"toggle\":[{\"pos\":{\"y\":40,\"x\":2}}]},\"15,34\":{\"toggle\":[{\"pos\":{\"y\":33,\"x\":16}},{\"pos\":{\"y\":35,\"x\":16}}]},\"9,16\":{\"toggle\":[{\"pos\":{\"y\":15,\"x\":11}}]}},\"portals\":{\"7,13\":{\"cooldown\":0,\"destination\":{\"y\":30,\"x\":24}},\"37,31\":{\"cooldown\":0,\"destination\":{\"y\":14,\"x\":20}}},\"fields\":{\"8,13\":{\"defaultState\":\"blue\"},\"28,11\":{\"defaultState\":\"red\"},\"36,31\":{\"defaultState\":\"red\"},\"7,12\":{\"defaultState\":\"blue\"},\"20,37\":{\"defaultState\":\"blue\"},\"20,27\":{\"defaultState\":\"blue\"},\"22,37\":{\"defaultState\":\"blue\"},\"24,7\":{\"defaultState\":\"red\"},\"28,9\":{\"defaultState\":\"red\"},\"19,28\":{\"defaultState\":\"blue\"},\"22,7\":{\"defaultState\":\"red\"},\"37,32\":{\"defaultState\":\"red\"},\"25,16\":{\"defaultState\":\"red\"},\"16,33\":{\"defaultState\":\"blue\"},\"21,37\":{\"defaultState\":\"blue\"},\"23,7\":{\"defaultState\":\"red\"},\"16,35\":{\"defaultState\":\"blue\"},\"24,17\":{\"defaultState\":\"red\"}}}","png":"iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAMAAAANxBKoAAAAB3RJTUUH3gUVEio5ZAvMHAAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAADAFBMVEUAAACAQHB4eHiAcEBAgFDU1NRAUIC5elf/gADcuroAdQBzc/8ZAJT//wA3NzebAADKwAAA/wCAgAC7uN25AAAAAJv/c3MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9naQAAAAAWJLR0T/pQfyxQAAAYhJREFUeJyVlQ+TgiAQxRcwNTPG0rnv/y27uZM6lF1ll5DuTU3++c3jwS4EsEvpvAwIqeqUV23+AUu8AHO8CDen1nwML/zmrs+rCrzmNOHKf/yqXQp0wDFXbXJ03/cbvU2i24dK6D5Jfm3CryWa8EU05dZ/u+XCPcODb1F13aE5zylzK6Ttjx/FAcyRxWwU93TkzfptiFcm9sasrxeYC0AVmvYBi6kSzp6iJ8qYZ9Q1TrfuV8LgFMHh4vwgvHHPlMaXcUQr44paftKBG73C6Khkb0g6cm7lKKaJblTFYHuj6t3J7WZz8LI9uLWqWgaD7IVYNTpZgg9pkfmQtims0jMLtJkd9j3WdjahN3XC+l1hXtQ0K6wJfpdk3YW1DmXyh47FGG9pXNKhZj2foXk1x3GcpqkbcjS/D/TUIb3Nkrp52fAw0AWqk7lxdZur9F7NZZLkfKqIHt/QJDz8cLIjKkd/+ZWr9qEKtBSna7Y9MtqrWbenEh+VHpJD/Qgu4hwu4BL2+ME/fAz/AZDCPxT7uMZvAAAAAElFTkSuQmCC","versionSource":3,"isRemix":false,"unlisted":false,"__v":0}</script>
+
+		<!-- Optional JavaScript -->
+<script type="text/javascript" src="/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/vendor/popper.min.js"></script>
+<script type="text/javascript" src="/vendor/bootstrap.min.js"></script>
+<script type="text/javascript" src="/vendor/purify.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/marked@4.0.12/marked.min.js"></script>
+<script type="text/javascript">window.SETTINGS = {"CTF_AUTH_URL":"https://ctfauth.herokuapp.com/api/v2","DEV_MODE":false,"MAPS":{"PREVIEW_QUALITY":0.7,"THUMBNAIL_QUALITY":0.9,"THUMBNAIL_SIZE":400,"MAX_PNG_LENGTH":1048576,"MAX_JSON_LENGTH":1048576},"SITE":{"MAPS_PER_PAGE":24,"LOGIN_EXPIRATION_TIME_LIMIT":8640000000,"COOKIE_TOKEN_NAME":"nekotizer","MAP_NAME_LENGTH":150,"AUTHOR_LENGTH":150,"TAG_NAME_MAX_LENGTH":16,"MAX_TAGS":10,"MAX_AUTHORS":24,"CERTIFICATIONS":{"0":{"priority":10,"name":"Nothing","backgroundColor":"gray","textColor":"#EEEEEE"},"1":{"priority":10,"name":"F-M Developer","backgroundColor":"#69BF4A","textColor":"#EEEEEE"},"2":{"priority":9,"name":"MTC","backgroundColor":"#4CAF50","textColor":"#EEEEEE"},"3":{"priority":8,"name":"TPFG","backgroundColor":"#5DB4E8","textColor":"#EEEEEE"}},"ADMIN_ONLY_TAGS":["ROTATION","RETIRED","UMDUMP"],"TAGS":{"CTF":{"name":"CTF","backgroundColor":"linear-gradient(45deg, #DF5349 50%, #4971DF 50%)","textColor":"#EEEEEE"},"NF":{"name":"NF","backgroundColor":"#FFEB3B","textColor":"#111111"},"DTF":{"name":"DTF","backgroundColor":"#673AB7","textColor":"#EEEEEE"},"2NF":{"name":"2NF","backgroundColor":"linear-gradient(45deg, #FF9800 33%, #F0F0F0 33% 66%, #FF9800 33%)","textColor":"#111111"},"MARS BALL":{"name":"Mars Ball","backgroundColor":"maroon","textColor":"#EEEEEE"},"MINIGAME":{"name":"Minigame","backgroundColor":"#B73AB3","textColor":"#EEEEEE"},"ROTATION":{"name":"Rotation","backgroundColor":"linear-gradient(90deg, #33C738, #A4D270)","textColor":"#EEEEEE"},"RETIRED":{"name":"Retired","backgroundColor":"linear-gradient(90deg, #C4C4C4, #D1D1D1)","textColor":"#111111"},"UMDUMP":{"name":"U-M Transfer","backgroundColor":"#003F00","textColor":"#eee"}}},"ERRORS":{"LOGIN_ERROR":{"err":"An error occurred while logging in","code":"LOGIN.LOGIN_ERROR"},"INVALID_LOGIN_TOKEN":{"err":"Your login token has expired","code":"LOGIN.INVALID_TOKEN"},"ALREADY_REGISTERED":{"err":"This profile has already been registered","code":"REGISTER.ALREADY_REGISTERED"},"INVALID_MAP_ID":{"err":"That map ID is invalid","code":"SEARCH.INVALID_MAP_ID"},"NOT_FOUND":{"err":"That resource could not be located","code":"SEARCH.NOT_FOUND"},"MAX_PAGE_LIMIT":{"err":"The page you were trying to access is out of range. Please use a smaller value","code":"SEARCH.MAX_PAGE_LIMIT"},"TEST_MAP_LINK_FAIL":{"err":"Sorry, we could not start up a test map","code":"TEST.TEST_MAP_LINK_FAIL"},"UPLOAD_MAX_SIZE":{"err":"A size error occurred while uploading your map.","code":"UPLOAD.MAX_SIZE"},"PREVIEW_GENERATION":{"err":"An error occurred while generating map preview","code":"CREATION.PREVIEW_GENERATION"},"PREVIEW_WRITING":{"err":"An error occurred while saving the map preview","code":"CREATION.PREVIEW_WRITING"},"THUMBNAIL_GENERATION":{"err":"An error occurred while generating map thumbnail","code":"CREATION.THUMBNAIL_GENERATION"}},"FILLERS":{"BIO":["404 Biography Not Found","No Description","Nothing to be said here","I'm too lazy to write a biography."]}};window.PROFILE = null</script>
+<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+		<script type="text/javascript" src="/js/tag_input.js"></script>
+		<script type="text/javascript" src="/js/map.js"></script>
+	</body>
+</html>
+```
