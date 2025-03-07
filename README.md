@@ -8,10 +8,10 @@ Data as of 2025-03-03 12 PM EST (Map IDs 1 – 88850)<br><br>
 One line / row per map ID for each of the following files:<br>
 \- **FM maps.xlsx**: each column is a field from the main javascript element (<script type="text/javascript"></script>) for each fortunatemaps.herokuapp.com/maps/\<mapID> HTML page<br>
 \- **scrape results.txt**: each line is the main javascript element for the map ID corresponding to the line number<br>
-\- **scrape results - JSONs only.ndjson**: each line is the (properly reformatted) JSON for each map, which is the filetype used by the game engine to construct the layout of each map and is a component of the javascript element<br>
+\- **scrape results - JSONs only.ndjson**: each line is the (properly reformatted) JSON for each map, which is the filetype used by the game engine to construct the layout of each map and is a component of the main javascript element<br>
 <br>
 
-Example line items
+Example line item from each file
 ---
 ### FM maps.xlsx
 ```
