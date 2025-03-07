@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+FM[[:space:]]maps.xlsx filter=lfs diff=lfs merge=lfs -text
+scrape[[:space:]]results[[:space:]]-[[:space:]]JSONs[[:space:]]only.ndjson filter=lfs diff=lfs merge=lfs -text
+scrape[[:space:]]results.txt filter=lfs diff=lfs merge=lfs -text
+Dump[[:space:]]of[[:space:]]HTTP[[:space:]]200[[:space:]]responses[[:space:]]for[[:space:]]FM[[:space:]]map[[:space:]]URLs/2025-03-03[[:space:]]12[[:space:]]pm[[:space:]]fortunatemaps[[:space:]]dump[[:space:]]-[[:space:]]main.txt filter=lfs diff=lfs merge=lfs -text
+Dump[[:space:]]of[[:space:]]HTTP[[:space:]]200[[:space:]]responses[[:space:]]for[[:space:]]FM[[:space:]]map[[:space:]]URLs/2025-03-03[[:space:]]12[[:space:]]pm[[:space:]]fortunatemaps[[:space:]]dump[[:space:]]-[[:space:]]stragglers.txt filter=lfs diff=lfs merge=lfs -text
